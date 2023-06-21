@@ -1,0 +1,11 @@
+
+ERROR: 0:97: 'V1' : undeclared identifier 
+ERROR: 0:97: 'assign' :  cannot convert from '3-component vector of highp float' to 'highp float'
+ERROR: 0:98: 'V2' : undeclared identifier 
+ERROR: 0:98: 'assign' :  cannot convert from '3-component vector of highp float' to 'highp float'
+ERROR: 0:101: 'N1' : undeclared identifier 
+ERROR: 0:101: 'assign' :  cannot convert from '3-component vector of highp float' to 'highp float'
+ERROR: 0:102: 'N2' : undeclared identifier 
+ERROR: 0:102: 'assign' :  cannot convert from '3-component vector of highp float' to 'highp float'
+
+

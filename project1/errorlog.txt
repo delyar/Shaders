@@ -1,0 +1,7 @@
+
+ERROR: 0:29: 'ORANGE' : undeclared identifier 
+ERROR: 0:30: 'mix' : no matching overloaded function found (using implicit conversion) 
+ERROR: 0:30: 'mix' : function is not known 
+ERROR: 0:29: '=' :  cannot convert from 'const highp float' to '3-component vector of highp float'
+
+

@@ -1,0 +1,14 @@
+##OpenGL GLIB
+Perspective 70
+LookAt  0 0 3     0 0 0    0 1 0
+
+Vertex   bunny.vert
+Geometry bunny.geom
+Fragment bunny.frag
+Program  SphLego  			\
+	 uLevel <0. 2. 6.>			\
+	 uLightX <-20. 5. 20.>                   \
+     uLightY <-20. 10. 20.>                  \
+	 uLightZ <-20. 20. 20.>                  
+
+Obj bunny010n.obj

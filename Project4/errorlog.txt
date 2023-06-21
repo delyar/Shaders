@@ -1,0 +1,12 @@
+
+ERROR: 0:53: 'mixLight0' : undeclared identifier 
+ERROR: 0:53: 'xyz' : field selection requires structure, vector, or matrix on left hand side 
+ERROR: 0:53: 'ECposition0' : undeclared identifier 
+ERROR: 0:56: 'mixLight1' : undeclared identifier 
+ERROR: 0:56: 'xyz' : field selection requires structure, vector, or matrix on left hand side 
+ERROR: 0:56: 'ECposition1' : undeclared identifier 
+ERROR: 0:59: 'mixLight2' : undeclared identifier 
+ERROR: 0:59: 'xyz' : field selection requires structure, vector, or matrix on left hand side 
+ERROR: 0:59: 'ECposition2' : undeclared identifier 
+
+

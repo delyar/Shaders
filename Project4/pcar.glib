@@ -1,0 +1,78 @@
+
+##OpenGL GLIB
+Perspective 70
+LookAt 0 0 3  0 0 0  0 1 0
+
+PushMatrix
+Translate 0 3 0
+Obj moon.obj
+PopMatrix
+
+PushMatrix
+Translate -1.7 -4.3 -0.5
+Color 0.7 0.5 0.0 0.9
+Sphere 0.1 50 50
+PopMatrix
+
+PushMatrix
+Translate -1.7 -4.3 0.7
+Color 0.7 0.5 0.0 0.9
+Sphere 0.1 50 50
+PopMatrix
+
+
+CubeMap 6 posx.bmp negx.bmp  posy.bmp negy.bmp  posz.bmp negz.bmp
+
+CubeMap 7 posx.bmp negx.bmp  posy.bmp negy.bmp  posz.bmp negz.bmp
+
+Vertex		pcar.vert
+Fragment	pcar.frag
+Program    	pcar			\
+			uK <0.0 0.01 0.1>		\
+			uP <0.01 0.2 1.>		\
+			uKa <0. 0.1 1.0>                        \
+			uKd <0. 0.6 1.0>                        \
+			uKs <0. 0.3 1.0>                        \
+			uShininess <1. 10. 100.>                \
+			uLight0X <-1.7 0.1 5.0> \
+			uLight0Y <-4.3 0.1 6.0> \
+			uLight0Z <-0.5 0.1 7.0> \
+			uLight1X <-1.7 0.1 5.0> \
+			uLight1Y <-4.3 0.1 5.0> \
+			uLight1Z <0.7 0.1 5.0> \
+			uLight2X <-1.7 0.1 5.0> \
+			uLight2Y <-4.3 0.1 5.0> \
+			uLight2Z <0.7 0.1 5.0> \
+			uColor {1. .7 0. 0.5}                    \
+            uSpecularColor {1. 1. 1. 1.}
+
+PushMatrix
+Scale 1
+Rotate 90 0 1 0
+Translate 0 -4.4 0
+Obj Porsche_911_GT2.obj
+PopMatrix
+
+
+Vertex		texture.vert
+Fragment	texture.frag
+Program Texture	TexUnit 6
+
+Texture2D  6  posx.bmp
+QuadYZ 5. 5. 10 10
+
+Texture2D  6  negx.bmp
+QuadYZ -5. 5. 10
+
+Texture2D  6  posy.bmp
+QuadXZ 5. 5. 10 10
+
+Texture2D  6  negy.bmp
+QuadXZ -5. 5. 10 10
+
+Texture2D  6  posz.bmp
+QuadXY 5. 5. 10 10
+
+Texture2D  6  negz.bmp
+QuadXY -5. 5. 10 10
+
